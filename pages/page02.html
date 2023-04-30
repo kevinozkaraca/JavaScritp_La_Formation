@@ -1,0 +1,194 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/general.css" />
+    <link rel="stylesheet" href="../styles/page02.css" />
+    <title>Page CSS</title>
+  </head>
+  <body>
+    <nav id="navigation">
+      <a href="../index.html">
+        <div>Page1</div>
+      </a>
+      <a href="page02.html">
+        <div>Page2</div>
+      </a>
+      <a href="page03.html">
+        <div>Page3</div>
+      </a>
+      <a href="page04.html">
+        <div>Page4</div>
+      </a>
+      <a href="page05.html">
+        <div>Page5</div>
+      </a>
+    </nav>
+    <div class="navPLace"></div>
+    <!--HEADER-->
+    <header>
+      <h1>Page en HTML / CSS par kevin özkaraca</h1>
+      <h2>Les possibilités avec du texte</h2>
+      <h3>Ombre sur le texte et le conteneur</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure sequi praesentium sint vel consequatur aliquam.
+        Cum ab quibusdam, reiciendis suscipit cupiditate unde ea omnis, quae quod vitae soluta. Laudantium, sit. Ullam
+        deleniti inventore dicta qui dolorem, maiores tenetur. Aspernatur eum nemo labore! Corporis, velit ipsum
+        exercitationem laborum assumenda distinctio sed deleniti placeat, quas natus veritatis totam non cum quae
+        dolores.
+      </p>
+      <h3>Majuscule, gras, couleur et position</h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur
+        <em>adipisicing elit. Iure sequi praesentium sint vel consequatur aliquam.</em>
+        Cum ab quibusdam, <strong>reiciendis suscipit cupiditate unde ea omnis</strong>, quae quod vitae soluta.
+        Laudantium, sit. Ullam deleniti inventore dicta qui dolorem, maiores tenetur. Aspernatur eum nemo labore!
+        Corporis, velit ipsum exercitationem laborum assumenda distinctio sed deleniti placeat, quas natus veritatis
+        totam non cum quae dolores.
+      </p>
+    </header>
+    <!--ARTICLE-->
+    <article>
+      <h2>Il est possible de mettre dans des liens :</h2>
+      <ul>
+        <li>
+          <a target="_blank" href="https://www.linkevin.com/in/kevin-%C3%B6zkaraca-66a256209/">Un site</a>
+        </li>
+        <li>
+          <a target="_blank" href="mailto:kevin.ozkaraca@gmail.com">Un mail</a>
+        </li>
+        <li>
+          <a target="_blank" href="./files/curriculumVitae.pdf">Un fichier</a>
+        </li>
+        <li>
+          <a target="_blank" href="tel:+00905304468117">Un numéro de téléphone</a>
+        </li>
+        <li>
+          <a href="#ancreBas">Une ancre (lien dans la meme page)</a>
+        </li>
+      </ul>
+    </article>
+    <!--ASIDE-->
+    <aside>
+      <h2>Centrer un élément</h2>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem omnis sint vel laboriosam in dolores
+        reprehenderit ad earum enim autem quod dolore labore accusantium a, tenetur eveniet repellendus praesentium
+        sunt! Itaque, tempora nemo. Ducimus eius quos veniam consequuntur possimus unde commodi tempore, hic dolore eos
+        distinctio eaque autem praesentium similique, laborum pariatur minima non obcaecati impedit neque quis officiis
+        voluptate. Dolor sed amet officia quae labore ad ipsam quas, sequi ratione? Delectus vitae nobis veritatis,
+        culpa odio maxime temporibus ullam. Nulla sapiente dolores alias maxime quaerat. Eveniet veritatis omnis iusto.
+        Obcaecati eum facere maiores expedita commodi. Libero delectus numquam quaerat debitis vel nulla veniam iste
+        molestias architecto at, eligendi est quod vitae accusamus quibusdam voluptatem laboriosam obcaecati unde odio
+        quasi. Molestiae consequatur harum asperiores tempora recusandae. Recusandae hic numquam et voluptatum sunt
+        beatae officia magnam asperiores, in iusto aliquam doloremque, sint excepturi pariatur dolore tempora! Animi
+        laborum vero vel magni.
+      </p>
+    </aside>
+    <!--FOOTER-->
+    <footer>
+      <h2>Centrer un élément</h2>
+      <p>margin padding auto</p>
+      <div>
+        <button>❤️ Like this</button>
+      </div>
+    </footer>
+    <br />
+    <!--FLOAT-->
+    <h2>Elements alignés avec float :</h2>
+    <div class="floatContainer">
+      <div>15%</div>
+      <div>15%</div>
+      <div>15%</div>
+      <div>15%</div>
+      <div>15%</div>
+    </div>
+    <div class="clearFloat">clear</div>
+    <!--BOX-SIZING-->
+    <div>
+      <h2>Box-sizing : content-box/border-box (conteneur 50%)</h2>
+      <div class="containerBox">
+        <div class="contentBox">contentBox (100%) +bodure + padding</div>
+        <div class="borderBox">borderBox (100%) avec bordure et padding interne</div>
+      </div>
+    </div>
+    <div>
+      <!--FLEXBOX-->
+      <h2>flex-box (wrap fait passer à la ligne)</h2>
+      <div class="containerFlexBox">
+        <div class="FlexBoxItem">150px</div>
+        <div class="FlexBoxItem">150px</div>
+        <div class="FlexBoxItem">150px</div>
+        <div class="FlexBoxItem">150px</div>
+        <div class="FlexBoxItem">150px</div>
+        <div class="FlexBoxItem">150px</div>
+      </div>
+    </div>
+    <!--GRID-->
+    <h2>Grid</h2>
+    <p>
+      un container principale contenant columns et raws définis <br />
+      3 containers dans le container principale et des items à l'interieur
+    </p>
+    <div class="bigGridContainer">
+      <div class="containerGrid1">
+        <div class="GridItem1">15%</div>
+        <div class="GridItem1">15%</div>
+        <div class="GridItem1">15%</div>
+        <div class="GridItem1">15%</div>
+        <div class="GridItem1">15%</div>
+        <div class="GridItem1">15%</div>
+      </div>
+      <div class="containerGrid2">
+        <div class="GridItem2">10%</div>
+        <div class="GridItem2">10%</div>
+        <div class="GridItem2">10%</div>
+        <div class="GridItem2">10%</div>
+        <div class="GridItem2">10%</div>
+        <div class="GridItem2">10%</div>
+      </div>
+      <div class="containerGrid3">
+        <div class="GridItem3">12%</div>
+        <div class="GridItem3">12%</div>
+        <div class="GridItem3">12%</div>
+        <div class="GridItem3">12%</div>
+        <div class="GridItem3">12%</div>
+        <div class="GridItem3">12%</div>
+      </div>
+    </div>
+    <br />
+    <h2>Grid 2</h2>
+    <p>
+      un container principale contenant columns et raws définis <br />
+      3 containers dans le container principale et des items à l'interieur
+    </p>
+    <div class="bigGridContainer2">
+      <div class="containerGrid12">
+        <div class="GridItem12a"></div>
+        <div class="GridItem12b"></div>
+        <div class="GridItem12c"></div>
+        <div class="GridItem12d"></div>
+        <div class="GridItem12e"></div>
+        <div class="GridItem12f"></div>
+      </div>
+      <div class="containerGrid22">
+        <div class="GridItem22a"></div>
+        <div class="GridItem22b"></div>
+        <div class="GridItem22c"></div>
+        <div class="GridItem22d"></div>
+        <div class="GridItem22e"></div>
+        <div class="GridItem22f"></div>
+      </div>
+      <div class="containerGrid32">
+        <div class="GridItem32a"></div>
+        <div class="GridItem32b"></div>
+        <div class="GridItem32c"></div>
+        <div class="GridItem32d"></div>
+        <div class="GridItem32e"></div>
+        <div class="GridItem32f"></div>
+      </div>
+    </div>
+    <br />
+  </body>
+</html>

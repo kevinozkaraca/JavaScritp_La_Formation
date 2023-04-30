@@ -1,0 +1,308 @@
+/*  
+Le CSS est composer de selecteur, suivi d'un bloc de déclaration où se trouve des propriétés et des valeurs
+Il est possible d'ecrire le CSS dans une balise html "style" ou dans la la balise avec l'attribut "style" 
+ou dans un fichier externe
+*/
+
+/* Installation d'une font : */
+
+@font-face {
+  font-family: "oswald";
+
+  src: url("../fonts/Oswald.ttf") format("truetype");
+}
+
+body {
+  font-family: "oswald";
+  font-size: large;
+}
+/* Header : style pour le texte */
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  background-color: aquamarine;
+}
+h2 {
+  margin: 5px;
+  padding: 5px;
+  width: 90%;
+}
+h3 {
+  margin: 3px;
+  padding: 3px;
+}
+p {
+  margin: 2px;
+  padding: 2px;
+}
+header :nth-child(4) {
+  background-color: rgb(231, 254, 255);
+}
+header :nth-child(4) {
+  box-shadow: 10px 5px 5px rgb(28, 28, 28);
+  text-shadow: 5px 5px 5px;
+}
+
+header :nth-child(6) em {
+  text-transform: uppercase;
+}
+
+header :nth-child(6) strong {
+  color: brown;
+  position: relative;
+  z-index: -1;
+  left: 5px;
+  bottom: 5px;
+}
+/* Article : style pour les liens */
+article {
+  background-color: antiquewhite;
+  margin-top: 20px;
+}
+article a {
+  text-decoration: none;
+  color: brown;
+  font-weight: 600;
+}
+article a:visited {
+  text-decoration: none;
+  color: #3f9619;
+}
+article a:hover {
+  color: #5be6ff;
+  text-decoration: underline wavy #3f9619;
+}
+/* Aside : centrer un élément */
+aside {
+  background-color: aquamarine;
+}
+aside p {
+  width: 70%;
+  margin: auto;
+  padding: auto;
+}
+/* Footer */
+footer div {
+  width: 150px;
+  margin: auto;
+  padding: auto;
+}
+footer button {
+  padding: 10px;
+  font-size: larger;
+  cursor: pointer;
+  margin: 5px;
+}
+/* Float */
+.floatContainer {
+  width: 100%;
+  align-items: center;
+  background-color: black;
+}
+.floatContainer div {
+  width: 15%;
+  height: 150px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 5px;
+  padding: 0;
+  background-color: #3f9619;
+  float: left;
+  color: aliceblue;
+}
+.clearFloat {
+  clear: both;
+}
+/* Box-sizing */
+.containerBox {
+  width: 50%;
+  background-color: black;
+}
+.contentBox {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background-color: aquamarine;
+  box-sizing: content-box;
+  border: 5px solid red;
+  margin: 15px;
+}
+.borderBox {
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+  background-color: aquamarine;
+  box-sizing: border-box;
+  border: 5px solid red;
+  margin: 15px;
+}
+/* flex-box */
+.containerFlexBox {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: coral solid 5px;
+}
+.FlexBoxItem {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+  background-color: blue;
+  margin: 5px;
+  color: aliceblue;
+}
+/* grid */
+.bigGridContainer {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 25% 25% 50%;
+  grid-template-rows: 500px;
+  margin: 0;
+  padding: 0;
+}
+.containerGrid1 {
+  background-color: aqua;
+}
+.containerGrid2 {
+  background-color: rgb(0, 166, 111);
+}
+.containerGrid3 {
+  background-color: #3f9619;
+}
+.containerGrid1 div {
+  border: red solid 2px;
+  height: 15%;
+  color: aliceblue;
+}
+.containerGrid2 div {
+  border: red solid 2px;
+  height: 10%;
+  color: aliceblue;
+}
+.containerGrid3 div {
+  border: red solid 2px;
+  height: 12%;
+  color: aliceblue;
+}
+/* grid 2*/
+.bigGridContainer2 {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 10% 45% 35%;
+  grid-template-rows: 500px;
+  margin: auto;
+  padding: auto;
+  align-items: center;
+  justify-content: center;
+}
+.containerGrid12 {
+  background-color: rgb(67, 67, 67);
+}
+.containerGrid22 {
+  background-color: rgb(38, 38, 38);
+}
+.containerGrid32 {
+  background-color: rgb(140, 140, 140);
+}
+.GridItem12a {
+  width: 100%;
+  height: 50%;
+  background-color: #4bd0b7;
+}
+.GridItem12b {
+  width: 100%;
+  height: 5%;
+  background-color: #290660;
+}
+.GridItem12c {
+  width: 100%;
+  height: 15%;
+  background-color: #ed24ea;
+}
+.GridItem12d {
+  width: 100%;
+  height: 10%;
+  background-color: #5bda25;
+}
+.GridItem12e {
+  width: 100%;
+  height: 5%;
+  background-color: #fff42a;
+}
+.GridItem12f {
+  width: 100%;
+  height: 15%;
+  background-color: #2ab1ff;
+}
+
+.GridItem22a {
+  width: 100%;
+  height: 5%;
+  background-color: #3f9619;
+}
+.GridItem22b {
+  width: 100%;
+  height: 25%;
+  background-color: #ff2a2a;
+}
+.GridItem22c {
+  width: 100%;
+  height: 10%;
+  background-color: #797979;
+}
+.GridItem22d {
+  width: 100%;
+  height: 25%;
+  background-color: #5bda25;
+}
+.GridItem22e {
+  width: 100%;
+  height: 15%;
+  background-color: #d1ff2a;
+}
+.GridItem22f {
+  width: 100%;
+  height: 20%;
+  background-color: #041070;
+}
+.GridItem32a {
+  width: 100%;
+  height: 35%;
+  background-color: #c6c6c6;
+}
+.GridItem32b {
+  width: 100%;
+  height: 5%;
+  background-color: #4cb51f;
+}
+.GridItem32c {
+  width: 100%;
+  height: 10%;
+  background-color: #57cf23;
+}
+.GridItem32d {
+  width: 100%;
+  height: 5%;
+  background-color: #288700;
+}
+.GridItem32e {
+  width: 100%;
+  height: 15%;
+  background-color: #dee146;
+}
+.GridItem32f {
+  width: 100%;
+  height: 30%;
+  background-color: #0096c4;
+}
+/* 
+
+il est possible de déplacer les éléments de la grille en utilisant : 
+grid-columen et grid-row et en diquant par x/x sa place 
+
+*/

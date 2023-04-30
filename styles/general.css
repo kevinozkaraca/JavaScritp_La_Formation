@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "lato";
+  font-style: normal;
+  font-weight: normal;
+  src: url("../fonts/Lato.ttf") format("truetype");
+}
+h1 {
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+  font-family: "lato";
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  vertical-align: text-bottom;
+  vertical-align: middle;
+  line-height: 50px;
+}
+
+nav a {
+  font-family: "lato";
+  display: block;
+  text-decoration: none;
+  font-size: large;
+  width: 19%;
+  color: white;
+  height: 50px;
+}
+nav div {
+  display: block;
+  text-decoration: none;
+
+  height: 50px;
+  width: 100%;
+}
+nav div:hover {
+  background-color: rgb(26, 58, 100);
+  border-bottom: ghostwhite 5px solid;
+}
+.navPLace {
+  margin: 0;
+  padding: 0;
+  height: 50px;
+  width: 100%;
+}
+
+#buttonsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+#buttonsFlex button {
+  width: 20%;
+  height: 80px;
+}
+
+#CounterbuttonsFlex {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  text-justify: center;
+  text-align: center;
+}
+#CounterbuttonsFlex div {
+  width: 20%;
+  height: 40px;
+  background-color: rgb(9, 121, 121);
+  text-justify: center;
+  text-align: center;
+  color: wheat;
+  font-size: larger;
+  border: 6px double white;
+  box-sizing: border-box;
+}
+#pragraff {
+  width: 80%;
+  background-color: black;
+  color: white;
+  margin: auto;
+  text-justify: center;
+  text-align: center;
+}

@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'oswald';
+  src: url('../fonts/Oswald.ttf') format('truetype');
+}
+/* La font lato est dans le css général*/
+body {
+  font-family: 'lato';
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  background-color: rgb(234, 234, 37);
+}
+img {
+  width: 80%;
+}
+pre {
+  width: 100%;
+  font-size: 0.7rem;
+  margin: auto;
+}

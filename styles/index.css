@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'oswald';
+  src: url('../fonts/Oswald.ttf') format('truetype');
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+  vertical-align: middle;
+  letter-spacing: 2px;
+  background-color: rgb(255, 162, 0);
+}
