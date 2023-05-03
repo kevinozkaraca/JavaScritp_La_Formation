@@ -1,0 +1,17 @@
+let maVariable10 = 10;
+console.log("maVariable au début :");
+console.log(maVariable10);
+console.log("---------------------------------");
+console.log("maVariable10 += 1 :");
+console.log((maVariable10 += 1));
+console.log("maVariable10 -= 10 :");
+console.log((maVariable10 -= 10));
+console.log("maVariable10 *= :");
+console.log((maVariable10 *= 100));
+console.log("++maVariable10");
+console.log(++maVariable10);
+console.log("--maVariable10");
+console.log(--maVariable10);
+console.log("---------------------------------");
+console.log("maVariable à la fin :");
+console.log(maVariable10);

@@ -1,34 +1,6 @@
 
 
 /*
-            ---OPERATEURS MATHEMATIQUE---
-*/
-console.log("Calcul simple avec +, -, /, * et ** ");
-console.log("10 + 10 :");
-console.log(10 + 10);
-console.log("10 - 10 :");
-console.log(10 - 10);
-console.log("100 ** 10 :");
-console.log(100 / 10);
-console.log("10 * 10 :");
-console.log(10 * 10);
-console.log("10 ** 10 :");
-console.log(10 ** 10);
-/*
-            ---ASSIGNEMENT---
-*/
-let maVariable10 = 10;
-console.log("10 += 1 :");
-console.log((maVariable10 += 1));
-console.log("10 -= 10 :");
-console.log((maVariable10 -= 10));
-console.log("10 *= :");
-console.log((maVariable10 *= 100));
-console.log("++100");
-console.log(++maVariable10);
-console.log("--101");
-console.log(--maVariable10);
-/*
             ---LES CONDITIONS---
 */
 let maCondition1 = true;
