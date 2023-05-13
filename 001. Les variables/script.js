@@ -18,7 +18,7 @@ lignes
 let maVariable1 = 1;
 const maVariable2 = 2;
 var maVariable3 = 3;
-let maVariable4 = `${maVariable1 + maVariable2}`;
+let maVariable4 = `Ecrire et calculer : ${maVariable1 + maVariable2}`;
 // La variable 1 est une variable locale
 console.log("La variable 1 à comme valeur: " + maVariable1);
 // La variable 2 est une constante donc impossible de changer sa valeur
@@ -26,7 +26,7 @@ console.log("La variable 2 à comme valeur: " + maVariable2);
 // La variable 3 est une variable globale (visible dans le navigateur)
 console.log("La variable 3 à comme valeur: " + maVariable3);
 // changer une valeur pas besoin de let ou var (impossble pour const) :
-console.log("La variable 4 à comme valeur: " + maVariable4);
+console.log("La variable 4 est " + maVariable4);
 // Pour changer une valeur pas besoin de let ou var (impossble pour const) :
 maVariable4 = 5;
 console.log("La variable 4 à changée de valeur : " + maVariable4);
