@@ -9,7 +9,7 @@ console.log(map1);
 /*
             --- Les fonctions sur les chaines de caractères ---
 */
-let chaineDeCara = "     +hdklfhdsjkfgdjk msqghouidq+mshbvlkxwcbvkjuzeatge iudhbvcjklhdbsqg k+fhsdqkljhflkqjsdhg+fo";
+let chaineDeCara = "     +hdklfhdsjkfgdjk msqghouidq+mshbvlkxwcbvkjuzeatge iudhbvcjklhdbsqg k+fhsdqkljhflkqjsdhg+for";
 // les chaines de caractère peuvent se travailler comme un tableau :
 let bouDeChaine = chaineDeCara[2];
 console.log(bouDeChaine);
